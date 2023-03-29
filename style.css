@@ -54,7 +54,7 @@ body {
     text-align: center;
     line-height: 1.2;
     color: var(--clr-neutral-500);
-    background-color: var(--clr-accent-200);
+    /* background-color: var(--clr-accent-200); */
 }
 
 /* TYPOGRAPHY */
@@ -79,6 +79,7 @@ body {
 
 /* LAYOUT */
 .container {
+  position: relative;
   width: clamp(375px, 50vw, 1440px);
   height: clamp(667px, 50vh, 720px);
   outline: 1px solid violet;
@@ -98,6 +99,23 @@ body {
 .avatar {
   border-radius: 50%;
   border: 1rem solid var(--clr-neutral-100);
+}
+
+/* BACKGROUND IMAGES */
+.container::after {
+  content: '';
+  position: absolute;
+  top: 100;
+  left: 100;
+  /* bottom: ; */
+  /* right: 300; */
+  width: 100%;
+  height: 100%;
+  background-image: url("images/bg-pattern-top.svg");
+  /* background-position: top right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 100;
 }
 
 
