@@ -31,8 +31,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Github](https://github.com/JoleneKearse/fem-profile-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution onGithub](https://github.com/JoleneKearse/fem-profile-card-component)
+- [Live Site URL](https://fem-profile-card-component-rho.vercel.app/)
 
 ## My process
 
