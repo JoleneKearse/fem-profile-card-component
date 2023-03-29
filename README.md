@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -21,14 +21,14 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### The challenge
 
-- Build out the project to the designs provided
+Build out the project to the designs provided - pretty simple right?!? 🤣  _There's always a gotcha in there somewhere._ 😄
 
 ### Screenshot
 
 Here is the Figma design:
 ![Figma Designs](screenshots/figma-designs.png)
 
-And mine:
+And my solution:
 ![My solution]()
 
 
@@ -61,18 +61,31 @@ This gave me a much better idea of both the container and card space I was worki
 
 ### What I learned
 
-Basically, my biggest win was not being so afraid of using `position: relative` and `position: absolute`! I usually only use these as a last resort, but I planned to use it for the background images right from the start.
+Basically, my **biggest win** was not being so wary of using `position: relative` and `position: absolute`! I usually only use these as a last resort, but I had planned to use it for the background images right from the start. 
+
+I had to Google which value to use on the parent again, but reading the **MDN docs** helped:
+
+![relative creates a new stacking context, while absolute makes it positioned relative to it's closest positioned ancestor](screenshots/relative-absolute.png)
+
+Now on to my **biggest headache**...
+
+Figuring out 'just how the H***' to position those really cool circles in the background!
+
+![the problem circles in the background](screenshots/circles.png)
+
+I first tried my hardest to use the `top`, `right`, `left`, and `bottom` properties open once you use `position`, but no dice! 🎲 😠 I played around with that and `width` and `height` for awhile, getting _interesting_ cut off circles...  Then there was that bit I had to check if I had mistakenly placed it in `div class="card"`, because I couldn't get them out of the middle of the page.  🤯
+
+But I found using the `background` properties were what really helped me out.  Through quite a lot of trial and error, `background-position` came in for the win! 🏆
 
 ### Continued development
 
-I will continue working on only doing one change per commit. I will; promise! 🤞 I changed from simply typing `git add .` and quite liked it, but still find myself jumping from file to file and forgetting to commit. 🤣
+I will continue working on **only doing one change per commit**. I will; promise! 🤞 I changed from simply typing `git add .` to adding the actual files and quite liked it, but still find myself jumping from file to file and forgetting to commit. 🤣  _Oh well, baby steps!_
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN: `position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - This helped me remember the differences between the `relative` and `absolute` values.
+- [MDN: `background-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - This is helped me finally set the circle svgs correctly!
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
