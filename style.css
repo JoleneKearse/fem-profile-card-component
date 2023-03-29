@@ -85,9 +85,10 @@ body {
 .container {
   position: relative;
   width: clamp(375px, 50vw, 1440px);
-  height: clamp(667px, 50vh, 720px);
+  height: clamp(667px, 40vh, 720px);
   background-color: var(--clr-accent-200);
-  outline: 1px solid violet;
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
 .container::after {
@@ -97,8 +98,8 @@ body {
   left: 100;
   width: 100%;
   height: 100%;
-  background-image: url("images/bg-pattern-top.svg");
-  background-size: cover;
+  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-position: right 15vw bottom 45vh, 17vw 40vh;
   background-repeat: no-repeat;
   z-index: 100;
   perspective: 1000px;
@@ -112,12 +113,10 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-  background-image: url("images/bg-pattern-bottom.svg");
+  background-image: ;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 100;
-  perspective: 1000px;
-  transform-style: preserve-3d;
 }
 
 .card {
@@ -132,7 +131,7 @@ body {
   box-shadow: 2px 5px 10px #2E334933;
   z-index: 200;
   overflow: hidden;
-  transform: translateZ(50px);
+  transform: translateZ(10px);
   transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
 }
 
