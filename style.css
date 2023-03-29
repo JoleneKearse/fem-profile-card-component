@@ -139,5 +139,5 @@ body {
 
 .avatar {
   border-radius: 50%;
-  border: 1rem solid var(--clr-neutral-100);
+  border: .4rem solid var(--clr-neutral-100);
 }
