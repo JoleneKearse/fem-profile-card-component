@@ -7,3 +7,41 @@
   --clr-accent-100: #41CBD3;
   --clr-accent-200: #19A1AE;
 }
+
+/* RESET */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, div, h2, span, h3, p, img {
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2;
+    color: #232323;
+    background-color: #f9ffff;
+}
+
+
+
+
+
