@@ -25,20 +25,23 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
+Here is the Figma design:
 ![Figma Designs](screenshots/figma-designs.png)
 
+And mine:
+![My solution]()
 
 
 ### Links
 
-- [Solution onGithub](https://github.com/JoleneKearse/fem-profile-card-component)
+- [Solution on Github](https://github.com/JoleneKearse/fem-profile-card-component)
 - [Live Site URL](https://fem-profile-card-component-rho.vercel.app/)
 
 ## My process
 
 As usual I designed this *mobile-first*, although there really weren't too many differences between screen sizes. 🤣
 
-I did attempt a _more professional workflow_ by adhering to *good commits*. So trying to label them correctly, and doing one thing per commit. 
+I did attempt a _more professional workflow_ by adhering to *good commits*. So trying to label them correctly, and only doing one thing per commit. 😱
 
 Usually I like to start by styling the *typography*, but found it made more sense to start with the *layout* here.
 
@@ -50,40 +53,19 @@ This gave me a much better idea of both the container and card space I was worki
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
+- Flexbox
 - Mobile-first workflow
+- Positioning
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Basically, my biggest win was not being so afraid of using `position: relative` and `position: absolute`! I usually only use these as a last resort, but I planned to use it for the background images right from the start.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will continue working on only doing one change per commit. I will; promise! 🤞 I changed from simply typing `git add .` and quite liked it, but still find myself jumping from file to file and forgetting to commit. 🤣
 
 ### Useful resources
 
