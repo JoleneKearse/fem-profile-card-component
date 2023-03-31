@@ -29,7 +29,7 @@ Here is the Figma design:
 ![Figma Designs](screenshots/figma-designs.png)
 
 And my solution:
-![My solution]()
+![My solution](screenshots/profile-screenshots.png)
 
 
 ### Links
